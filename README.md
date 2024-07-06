@@ -119,6 +119,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Upendra Singh - [your-email@example.com](mailto:your-email@example.com)
+Upendra Singh - [adshivam4040@gmail.com](mailto:adshivam4040@gmail.com)
 
 GitHub Repository: [https://github.com/upendrasingh-63/intel_project](https://github.com/upendrasingh-63/intel_project)
