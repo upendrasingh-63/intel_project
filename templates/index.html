@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Correction</title>
+    <link rel="icon" type="image/x-icon" href="static/image/favicon.ico'">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <style>
+        body {
+            background-image: url("static/image/backgroung.jpg");
+            background-size: cover;
+        }
+    </style>    
+</head>
+<body>
+    <div class="logo">
+        <img id="icon" src="static/image/favicon.ico" alt="">
+        <div class="right-logos">
+            <img src="static/image/Intel-logo-2022.png" alt="">
+            <img src="static/image/GLA-U-logo.jpg" alt="">
+        </div>
+    </div>
+      
+    <div class="container">
+        <header>
+            <h1>Pixelated Image Detection and Correction</h1>
+        </header>
+        <main>
+            <div class="upload-section">
+                <input type="file" id="imageUpload" accept="image/*">
+                <div class="button">
+                    <button id="checkPixelation">Check Pixelation</button>
+                    <button id="correctImage">Correct Image</button>
+                </div>
+            </div>
+            <div class="image-display">
+                <img id="inputImage" src="static/image/Screenshot 2024-07-02 084940.png" alt="Input Image">
+                <img id="arrow"src="static/image/arrow.png" alt="Input Image">
+                <img id="outputImage" src="static/image/Screenshot 2024-07-02 084940.png" alt="Output Image">
+            </div>
+            <div class="results">
+                <p id="resultText"></p>
+                <p id="psnrValue"></p>
+                <p id="ssimValue"></p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Upendra Singh</p>
+        </footer>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
