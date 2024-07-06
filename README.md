@@ -2,7 +2,9 @@
 
 This project aims to detect and correct pixelated images using a deep learning model. The backend is implemented with Flask, and TensorFlow is used for loading the model and performing image processing.
 
-[![Background Image](https://ibb.co/XL888rb)](https://ibb.co/XL888rb)
+![Test Image](images/test/lotus.jpg)![Result Image](images/result/lotus1.jpg)
+
+![Home Page](images/homepage.png)
 
 ## Table of Contents
 
