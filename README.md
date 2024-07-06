@@ -50,7 +50,7 @@ The Pixelation Correction AI Model detects and corrects pixelated images using a
 
 4. **Download the model:**
 
-    Download the `pixelation_correction_model.h5` file and place it in the `model` directory.
+    Download the `pixelation_detection_model.tflite`,`pixelation_correction_model.tflite` file and place it in the `model` directory.
 
 ## Usage
 
