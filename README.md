@@ -2,6 +2,8 @@
 
 This project aims to detect and correct pixelated images using a deep learning model. The backend is implemented with Flask, and TensorFlow is used for loading the model and performing image processing.
 
+Dataset used:![https://www.kaggle.com/datasets/soumikrakshit/div2k-high-resolution-images](https://www.kaggle.com/datasets/soumikrakshit/div2k-high-resolution-images)
+
 ![Test Image](images/test/lotus.jpg)![Result Image](images/result/lotus1.jpg)
 
 ![Home Page](images/homepage.png)
